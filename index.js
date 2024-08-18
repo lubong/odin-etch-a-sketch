@@ -10,6 +10,7 @@ function createGrid(len){
         for (let i = 0; i < len; i++){
             const col = document.createElement('div');
             col.classList.add("col");
+            col.style.border = `${1.0/len}em solid rgb(0, 255, 195)`;
             row.appendChild(col);
         }
         sketchbox.appendChild(row);

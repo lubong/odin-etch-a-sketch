@@ -8,7 +8,7 @@ body {
     background-color: rgb(15, 1, 27);
 }
 
-#sketchbox, .col {
+#sketchbox{
     border: 0.07em solid rgb(0, 255, 195);
 }
 
