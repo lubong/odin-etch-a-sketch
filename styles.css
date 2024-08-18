@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid #000000;
+}
+
+#sketchbox{
+    width: 32em;
+    height: 32em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+.col {
+    flex: 1;
+}
+
+.col:hover{
+    border-color: red;
+}
